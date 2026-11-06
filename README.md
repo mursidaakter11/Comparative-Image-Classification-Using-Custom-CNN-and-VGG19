@@ -60,6 +60,7 @@ The dataset is stored in Google Drive inside the MyDrive directory and accessed 
 
 🚀 How to Run the Project (Google Colab)
 Step 1: Open Google Colab
+
 Visit: https://colab.research.google.com/
 
 Step 2: Open the Notebook
