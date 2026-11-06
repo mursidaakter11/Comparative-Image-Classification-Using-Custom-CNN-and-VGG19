@@ -219,12 +219,14 @@ Step 5: Set Dataset Path
 python
 dataset_path = '/content/drive/MyDrive/Dataset'
 
-Step 6: Enable GPU
+Step 6: 
+Enable GPU
 Go to Runtime.
 Select Change runtime type.
 Choose T4 GPU (if available).
 Click Save.
-Step 7: Install Required Libraries
+Step 7: 
+Install Required Libraries
 python
 !pip install tensorflow numpy pandas matplotlib seaborn scikit-learn
 
@@ -233,15 +235,25 @@ Run all cells sequentially in Google Colab.
 The notebook will train and evaluate both Custom CNN and VGG19 models for Cats and Dogs image classification.
 
 📈 Evaluation Metrics
+
 Both models are evaluated using:
+
 Accuracy
+
 Precision
+
 Recall
+
 F1-Score
+
 Confusion Matrix
+
 Training and Validation Accuracy
+
 Training and Validation Loss
+
 🏆 Results and Comparison
+
 Evaluation Metric	Custom CNN	VGG19
 Accuracy	Add Result	Add Result
 Precision	Add Result	Add Result
@@ -254,10 +266,14 @@ This project compares Custom CNN and VGG19 for Cats and Dogs image classificatio
 The experimental results help evaluate the effectiveness of a custom-built CNN model compared to a pre-trained VGG19 model using Transfer Learning.
 
 👨‍💻 Author
+
 Mursida Akter
+
 GitHub: @mursidaakter11
+
 GitHub Profile: https://github.com/mursidaakter11
 
 📄 License
+
 This project is developed for educational and research purposes.
 >>>>>>> b272b6e3187d14bef39cb6484495a1f6dd0ef1ab
